@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: owl_development
+  database: blog_development
   pool: 5
   host: localhost
   username: Marco
@@ -18,7 +18,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: owl_test
+  database: blog_test
   pool: 5
   host: localhost
   username: Marco
@@ -27,7 +27,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: owl_production
+  database: blog_production
   pool: 5
   username: Marco
   password:
